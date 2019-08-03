@@ -1,0 +1,21 @@
+.header{
+    height: 400px;
+    background: url("../../assets/i/circuit-back-main.jpg") no-repeat center;
+    background-size: cover;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    
+}
+@media (max-width:770px){
+    .display-2{
+        font-size: 3.5rem;
+    }
+}
+@media (max-width:385px){
+    .display-2{
+        font-size: 2.5rem;
+    }
+}
+.btn{
+    width: 100%;
+}
