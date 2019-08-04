@@ -13,6 +13,12 @@ import { InnerheaderComponent } from './innerheader/innerheader.component';
 import { LinkgroupComponent } from './linkgroup/linkgroup.component';
 import { NbarComponent } from './nbar/nbar.component';
 import { PostComponent } from './post/post.component';
+import { SectionHomeComponent } from './sections/section-home/section-home.component';
+import { SectionAboutComponent } from '././sections/section-about/section-about.component';
+import { SectionSubjectComponent } from '././sections/section-subject/section-subject.component';
+import { SectionEditorComponent } from '././sections/section-editor/section-editor.component';
+import { SectionFeedComponent } from './sections/section-feed/section-feed.component';
+import { SectionNotFoundComponent } from '././sections/section-not-found/section-not-found.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +32,13 @@ import { PostComponent } from './post/post.component';
     InnerheaderComponent,
     LinkgroupComponent,
     NbarComponent,
-    PostComponent
+    PostComponent,
+    SectionHomeComponent,
+    SectionAboutComponent,
+    SectionSubjectComponent,
+    SectionEditorComponent,
+    SectionFeedComponent,
+    SectionNotFoundComponent
   ],
   imports: [
     BrowserModule,

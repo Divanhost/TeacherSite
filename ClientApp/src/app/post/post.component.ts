@@ -6,9 +6,10 @@ import { Input,Component, OnInit } from '@angular/core';
   styleUrls: ['./post.component.css']
 })
 export class PostComponent implements OnInit {
-  @Input() imageUrl:string;
   @Input() title:string;
+  @Input() imageUrl:string;
   @Input() text:string;
+  @Input() id?:number;
   constructor() { }
 
   ngOnInit() {

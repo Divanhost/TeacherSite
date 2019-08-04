@@ -1,8 +1,8 @@
 
 <div class="container-fluid">
     <h1 class="display-3">Мои мероприятия</h1>
-    <div class="d-flex flex-column bd-highlight mb-3">
-            <div *ngFor = "let item of items">
+    <div class="row">
+            <div *ngFor = "let item of items" class = "col-6">
                 <app-post [imageUrl]="item.url" [title]="item.title" [text] = "item.desc"> </app-post>
             </div>
     </div>
